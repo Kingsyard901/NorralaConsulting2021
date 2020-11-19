@@ -12,18 +12,18 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #c62a88;
+    color: #590995;
     font-size: 3rem;
     line-height: 1.5;
 }
 
 .download-btn {
-    background-color: #590995;
+    /* background-color: #590995; */
     font-family: 'Ubuntu', sans-serif;
     margin: 5% 3% 5% 0;
 }
 .download-btn:hover {
-    background-color: #c62a88;
+    background-color: #590995;
 }
 
 .container-fluid {
@@ -51,7 +51,7 @@ h1 {
 }
 
 .nav-link:hover {
-    background-color: #c62a88;
+    background-color: #590995;
 }
 
 .imagePhone {
@@ -73,13 +73,13 @@ h1 {
 }
 
 .tripple-icon {
-    color: #03c4a1;
+    color: #590995;
     font-size: 5rem;
     margin-bottom: 40px;
 }
 
 .tripple-icon:hover {
-    color: #c62a88;
+    color: #03c4a1;
 }
 
 
@@ -97,6 +97,7 @@ h1 {
 }
 
 .row-arg h3 {
+    color: #590995;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -108,7 +109,8 @@ h1 {
 #testimonials {
     text-align: center;
     background-color: #03c4a1;
-    color: #fff;
+    /* color: #fff; */
+    color: #590995;
 }
 
 .testimonial-image {
@@ -137,6 +139,7 @@ h1 {
 #pricing {
     padding: 100px;
     text-align: center;
+    color: #590995;
 }
 
 .pricing-column {
@@ -145,7 +148,8 @@ h1 {
 
 #cta {
     background-color: #03c4a1;
-    color: white;
+    /* color: white; */
+    color: #590995;
     text-align: center;
     padding-top: 100px;
 }
@@ -164,6 +168,10 @@ h1 {
 .footer-end a {
     color: black;
     padding: 10px;
+}
+
+.footer-end a:hover {
+    background-color: #03c4a1;
 }
 
 @media (max-width: 1028px) {
