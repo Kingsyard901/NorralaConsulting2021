@@ -217,7 +217,8 @@ h1 {
 }
 
 @media only screen and (max-width: 1440px) {
-    #smallScreen { display: none; }   /* hide it elsewhere */
+    #smallScreenImg { display: none; }
+    #smallScreen a { font-size: 0; }
   }
 
   @media only screen and (max-width: 990px) {
@@ -239,4 +240,8 @@ h1 {
     }
     #cta h3 {  font-size: 1rem;  }
     #projectImage {  display: none;  }
+  }
+
+  @media only screen and (max-width: 540px) {
+    #smallScreen { display: none; }
   }
