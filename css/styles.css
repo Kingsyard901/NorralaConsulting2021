@@ -70,6 +70,7 @@ h1 {
     background-color: #590995;
 }
 
+/* Profile Picture */
 .imagePhone {
     border-radius: 50%;
     width: 75%;
@@ -77,18 +78,6 @@ h1 {
     position: absolute;
     right: 30%;
 }
-
-.bgImageTrippleIcons {
-    position: absolute;
-    border-radius: 10%;
-    max-height: 100%;
-    opacity: 20%;
-    top: 0%;
-    /* left: 65%; */
-    background-color: white;
-    z-index: -1;
-}
-
 
 /* .heading-text {
     font-family: 'Montserrat-black', sans-serif;
@@ -110,7 +99,6 @@ h1 {
     color: #03c4a1;
 }
 
-
 /* .row-arg {
     text-align: center;
     padding: 4.5%;
@@ -122,6 +110,18 @@ h1 {
     padding: 7% 15%;
     position: relative;
     z-index: 1;
+}
+
+.bgImageTrippleIcons {
+    position: absolute;
+    border-radius: 10%;
+    max-height: 100%;
+    max-width: 80%;
+    opacity: 20%;
+    top: 0%;
+    /* left: 65%; */
+    background-color: white;
+    z-index: -1;
 }
 
 .row-arg h3 {
@@ -215,3 +215,7 @@ h1 {
         transform: rotate(0);
     }
 }
+
+@media only screen and (max-width: 1440px) {
+    #smallScreen { display: none; }   /* hide it elsewhere */
+  }
